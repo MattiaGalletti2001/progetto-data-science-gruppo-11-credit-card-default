@@ -5,6 +5,12 @@ Anno Accademico **2025/2026**
 
 ---
 
+# Repository GitHub
+
+https://github.com/MattiaGalletti2001/progetto-data-science-gruppo-11-credit-card-default
+
+---
+
 # Membri del gruppo
 
 - **Mattia Galletti**
@@ -54,13 +60,10 @@ Le variabili descrivono:
   - **0 = pagamento regolare**
   - **1 = default nel mese successivo**
 
-Durante la fase di pulizia sono state rimosse le osservazioni con valori non validi nelle variabili **EDUCATION** e **MARRIAGE**, ottenendo un dataset finale di **29.601 osservazioni**.
-
 ---
 
 # Struttura della repository
 
-```
 .
 |── data/
 │   └── Credit_Card_Default.csv 
@@ -68,28 +71,21 @@ Durante la fase di pulizia sono state rimosse le osservazioni con valori non val
 ├── notebooks/
 │   └── notebook_gruppo_11_credit_card_default.ipynb
 │
-├── figures/
-│
 ├── report/
-│   ├── report.pdf
-│   ├── relazione.tex
-│   └── ...
-│
+│   ├── Previsione_dell_Insolvenza_Creditizia__Analisi_e_Modellazione.pdf
+│   ├── main.tex
+│   ├── bibliografia.bib
+│   └── images/
+|       ├── logo_unibo.jpg
+│       ├── fig1_limit_bal_boxplot.png
+│       ├── fig2_pay0_default_prob.png
+|       ├── fig3_correlation_matrix.png
+│       ├── fig4_feature_importance.png
+│       ├── fig_confusion_logistic.png
+|       ├── fig_confusion_knn.png
+│       └── fig_confusion_rf.png
+│       
 └── README.md
-```
-
----
-
-# Librerie utilizzate
-
-Il progetto è stato sviluppato in Python utilizzando principalmente:
-
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-- scipy
 
 ---
 
@@ -123,7 +119,7 @@ Il notebook comprende:
 Sono stati implementati e confrontati tre modelli di classificazione:
 
 - Logistic Regression
-- K-Nearest Neighbors (k = 5)
+- K-Nearest Neighbors
 - Random Forest
 
 Per ogni modello sono state calcolate:
@@ -149,30 +145,12 @@ L'analisi ha evidenziato che:
 
 ---
 
-# Report
+# Tecnologie e strumenti utilizzati
 
-La cartella `report/` contiene:
+Per lo sviluppo del progetto sono stati utilizzati:
 
-- il report scientifico finale in formato PDF;
-- tutti i sorgenti LaTeX utilizzati per la sua realizzazione.
+- **Python**, eseguito tramite **Google Colab**, per l’analisi dei dati, la visualizzazione e la costruzione dei modelli di Machine Learning;
+- **GitHub**, per il versionamento del codice, il lavoro collaborativo e l’organizzazione della repository;
+- **LaTeX tramite Overleaf**, per la redazione del report scientifico finale.
 
----
-
-# Repository GitHub
-
-https://github.com/MattiaGalletti2001/progetto-data-science-gruppo-11-credit-card-default
-
----
-
-# Utilizzo di strumenti di Intelligenza Artificiale
-
-Durante lo sviluppo del progetto è stato utilizzato **ChatGPT (OpenAI) e Gemini (Google)** come supporto alla programmazione e alla revisione del testo.
-
-L'utilizzo ha riguardato esclusivamente:
-
-- chiarimenti concettuali;
-- supporto nella scrittura di codice Python;
-- revisione dei testi descrittivi;
-- suggerimenti per la documentazione.
-
-Tutto il codice inserito nel progetto è stato verificato, compreso e adattato dal gruppo, che è in grado di illustrarne il funzionamento durante la discussione orale, come richiesto dalle specifiche del corso.
+Durante lo sviluppo del progetto sono stati utilizzati **ChatGPT (OpenAI) e Gemini (Google)** come supporto alla programmazione e alla revisione del testo.
