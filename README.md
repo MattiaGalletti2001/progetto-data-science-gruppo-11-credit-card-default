@@ -166,7 +166,7 @@ https://github.com/MattiaGalletti2001/progetto-data-science-gruppo-11-credit-car
 
 # Utilizzo di strumenti di Intelligenza Artificiale
 
-Durante lo sviluppo del progetto è stato utilizzato **ChatGPT (OpenAI)** come supporto alla programmazione e alla revisione del testo.
+Durante lo sviluppo del progetto è stato utilizzato **ChatGPT (OpenAI) e Gemini (Google)** come supporto alla programmazione e alla revisione del testo.
 
 L'utilizzo ha riguardato esclusivamente:
 
