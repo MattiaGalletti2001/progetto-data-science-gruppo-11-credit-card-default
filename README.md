@@ -64,6 +64,7 @@ Le variabili descrivono:
 
 # Struttura della repository
 
+```
 .
 |── data/
 │   └── Credit_Card_Default.csv 
@@ -86,6 +87,7 @@ Le variabili descrivono:
 │       └── fig_confusion_rf.png
 │       
 └── README.md
+```
 
 ---
 
